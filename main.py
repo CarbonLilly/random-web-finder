@@ -57,7 +57,7 @@ print("Word list loaded!")
 
 
 print("Initializing driver!")
-driver = webdriver.Firefox()
+driver = webdriver.Firefox(executable_path='geckodriver.exe')
 print("Done!")
 print("Entering main loop...")
 while True:
